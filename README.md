@@ -1,9 +1,13 @@
-# i8080timer
-A verry rough heavily system dependent millisecond timer/sleep procedure for the z80A 4Mhz CPU
+# NorthStar Advantage Timeout
 
-Designed to be assembled using CP/M v2.2's ASM.COM, and run on the NorthStar Advantage computer. The procedure assumes an intel 8080 instruction set and a 4MHz CPU, such as the z80A. Timer is cycle based.
+A verry rough, heavily system-dependent milli/micro second timer/sleep
+procedure for the z80A 4Mhz CPU, using the Intel 8080 instruction set.
 
-# License Apache version 2.0
+Designed to be assembled using CP/M ASM.COM, and run on the NorthStar
+Advantage computer. The procedure assumes an Intel 8080 instruction
+set and a 4MHz CPU, such as the z80A. Timer is based on CPU cycles.
+
+## License Apache version 2.0
 
 Copyright 2024 Sage I. Hendricks  
 
@@ -18,8 +22,3 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  
 See the License for the specific language governing permissions and  
 limitations under the License.  
- 
- 
- 
- 
- 

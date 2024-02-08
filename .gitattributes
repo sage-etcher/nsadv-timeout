@@ -1,0 +1,2 @@
+**.asm          text eol=crlf linuguist-language=Assembly
+**.i8080asm     text eol=crlf linuguist-language=Assembly
